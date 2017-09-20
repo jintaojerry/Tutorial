@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>设置</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css"/>
+	</head>
+
+	<body>
+		<div class="page">
+			<header class="mui-bar mui-bar-nav">
+				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+				<h1 class="mui-title">设置</h1>
+			</header>
+			<div class="mui-content">
+				我是设置
+			</div>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item "  href="../index.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页</span>
+				</a>
+				<a class="mui-tab-item"  href="a.html">
+					<span class="mui-icon mui-icon-email"><span class="mui-badge" >9</span></span>
+					<span class="mui-tab-label">消息</span>
+				</a>
+				<a class="mui-tab-item"  href="b.html">
+					<span class="mui-icon mui-icon-contact"></span>
+					<span class="mui-tab-label">通讯录</span>
+				</a>
+				<a class="mui-tab-item mui-active" href="c.html">
+					<span class="mui-icon mui-icon-gear"></span>
+					<span class="mui-tab-label">设置</span>
+				</a>
+			</nav>
+		</div>
+	</body>
+
+</html>
+<script src="../js/require.js" data-main = "../js/main" data-path = 'c' id="requirePath"></script>
+<!--<script type="text/javascript">
+	require(['plugin/mui.min','plugin/zepto.min'],function(mui,$){
+		mui.init();
+		var page = $('.mui-title').html();
+		mui('.mui-content')[0].innerHTML = page + '已经被模块化加载';
+	})
+</script>-->
